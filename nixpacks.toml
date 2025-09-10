@@ -1,0 +1,9 @@
+# Nixpacks configuration for yoohoo.guru monorepo
+[phases.install]
+cmds = ["npm run install:all"]
+
+[phases.build]
+cmds = ["npm run build"]
+
+[start]
+cmd = "npm start"

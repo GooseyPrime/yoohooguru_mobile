@@ -1,0 +1,276 @@
+Accessibility
+
+	Buttons must have discernible text: Element has no title attribute
+
+		<button class="sc-jaXbil giVypV">
+		Open in Elements: <button class="sc-jaXbil giVypV"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu "><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button>
+		Request https://yoohoo.guru/login
+
+		<button type="button" class="sc-ibashp cOuEMQ">
+		Open in Elements: <button class="sc-jaXbil giVypV"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu "><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button>
+		Request https://yoohoo.guru/login
+
+
+
+Compatibility
+
+	'content-type' header media type value should be 'image/x-icon', not 'text/html'.
+		Content-Type: text/html; charset=utf-8
+		Open in Network: :
+		:authority yoohoo.guru
+		:method GET
+		:path /favicon.ico
+		:scheme https
+		accept image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+		accept-encoding gzip, deflate, br, zstd
+		accept-language en-US,en;q=0.9
+		cache-control no-cache
+		cookie _ga=GA1.2.397121933.1756914398; AWSALB=Efbwgi+8u++ayBBW+s/RgWUXh35dO99OSHGuvJDr6XP/SU9sNWZbw81wSOwEWXhcbiv6P44y/Tn7DO6T/04kBtVV2HPGOlMZ+kIg8iOG9y77+ziPbyck60Bzwd0S; _ga_WZSBC7FK9S=GS2.1.s1756925458$o2$g0$t1756925458$j60$l0$h0
+		pragma no-cache
+		priority u=1, i
+		sec-ch-ua "Chromium";v="140", "Not=A?Brand";v="24", "Microsoft Edge";v="140"
+		sec-ch-ua-mobile ?0
+		sec-ch-ua-platform "Windows"
+		sec-fetch-dest image
+		sec-fetch-mode no-cors
+		sec-fetch-site same-origin
+		user-agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0
+		Request https://yoohoo.guru/favicon.ico
+
+
+		'meta[name=theme-color]' is not supported by Firefox.
+		<meta name="theme-color" content="#007BFF">
+		Open in Elements: 
+		:authority yoohoo.guru
+		:method GET
+		:path /favicon.ico
+		:scheme https
+		accept image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+		accept-encoding gzip, deflate, br, zstd
+		accept-language en-US,en;q=0.9
+		cache-control no-cache
+		cookie _ga=GA1.2.397121933.1756914398; AWSALB=Efbwgi+8u++ayBBW+s/RgWUXh35dO99OSHGuvJDr6XP/SU9sNWZbw81wSOwEWXhcbiv6P44y/Tn7DO6T/04kBtVV2HPGOlMZ+kIg8iOG9y77+ziPbyck60Bzwd0S; _ga_WZSBC7FK9S=GS2.1.s1756925458$o2$g0$t1756925458$j60$l0$h0
+		pragma no-cache
+		priority u=1, i
+		sec-ch-ua "Chromium";v="140", "Not=A?Brand";v="24", "Microsoft Edge";v="140"
+		sec-ch-ua-mobile ?0
+		sec-ch-ua-platform "Windows"
+		sec-fetch-dest image
+		sec-fetch-mode no-cors
+		sec-fetch-site same-origin
+		user-agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0
+		Request https://yoohoo.guru/login
+
+
+
+Performance
+
+	'height' changes to this property will trigger: 'Layout', which can impact performance when used inside @keyframes.
+		@keyframes go651618207 {
+			0% {
+				height: 0;
+				width: 0;
+				opacity: 0;
+			}
+		}
+		Request https://yoohoo.guru/login
+
+
+		'width' changes to this property will trigger: 'Layout', which can impact performance when used inside @keyframes.
+		@keyframes go651618207 {
+			0% {
+				height: 0;
+				width: 0;
+				opacity: 0;
+			}
+		}
+		Request https://yoohoo.guru/login
+
+
+	Resource should use cache busting but URL does not match configured patterns.
+		Request https://yoohoo.guru/favicon.ico
+
+
+
+Security
+
+	Content Security Policy of your site blocks some resources
+		Some resources are blocked because their origin is not listed in your site's Content Security Policy (CSP). Your site's CSP is allowlist-based, so resources must be listed in the allowlist in order to be accessed.
+
+		A site's Content Security Policy is set either via an HTTP header (recommended), or via a meta HTML tag.
+
+		To fix this issue do one of the following:
+
+		(Recommended) If you're using an allowlist for 'script-src', consider switching from an allowlist CSP to a strict CSP, because strict CSPs are more robust against XSS. See how to set a strict CSP.
+		Or carefully check that all of the blocked resources are trustworthy; if they are, include their sources in the CSP of your site. ⚠️Never add a source you don't trust to your site's CSP. If you don't trust the source, consider hosting resources on your own site instead.
+		Affected Resources: 2 directives
+		Resource	Status	Directive	Source location
+		https://js.stripe.com/v3/pricing-table.js	blocked	script-src-elem	skills:0
+		https://apis.google.com/js/api.js?onload=__iframefcb638970	blocked	script-src-elem	vendors.577ed7c….js:172
+
+
+	The 'X-Frame-Options' header should not be used. A similar effect, with more consistent support and stronger checks, can be achieved with the 'Content-Security-Policy' header and 'frame-ancestors' directive.
+	
+		Affected Resources:
+		
+			x-frame-options: sameorigin
+		Open in Network
+			Request URL https://yoohoo.guru/favicon.ico
+			Request Method GET
+			Status Code 200 OK
+			Remote Address 66.33.22.249:443
+			Referrer Policy no-referrer
+			accept-ranges bytes
+			access-control-allow-credentials true
+			cache-control public, max-age=0
+			content-encoding br
+			content-security-policy default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+			content-type text/html; charset=UTF-8
+			cross-origin-opener-policy same-origin
+			cross-origin-resource-policy same-origin
+			date Mon, 08 Sep 2025 23:36:39 GMT
+			etag W/"593-1992b9a1008"
+			last-modified Mon, 08 Sep 2025 23:12:21 GMT
+			origin-agent-cluster ?1
+			referrer-policy no-referrer
+			server railway-edge
+			strict-transport-security max-age=15552000; includeSubDomains
+			vary Origin, Accept-Encoding
+			x-content-type-options nosniff
+			x-dns-prefetch-control off
+			x-download-options noopen
+			x-frame-options SAMEORIGIN
+			x-permitted-cross-domain-policies none
+			x-railway-edge railway/us-east4-eqdc4a
+			x-railway-request-id DrTW64PzQQ-o1jHOwoOzXw
+			x-xss-protection 0
+	
+		Request https://yoohoo.guru/favicon.ico
+
+	
+	
+Other
+	A form field element should have an id or name attribute
+	A form field element has neither an id nor a name attribute. This might prevent the browser from correctly autofilling the form.
+
+	To fix this issue, add a unique id or name attribute to a form field. This is not strictly needed, but still recommended even if you have an autocomplete attribute on the same element.
+
+	3 resources
+	
+	Violating node:
+		Request URL https://yoohoo.guru/favicon.ico
+		Request Method GET
+		Status Code 200 OK
+		Remote Address 66.33.22.249:443
+		Referrer Policy no-referrer
+		accept-ranges bytes
+		access-control-allow-credentials true
+		cache-control public, max-age=0
+		content-encoding br
+		content-security-policy default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+		content-type text/html; charset=UTF-8
+		cross-origin-opener-policy same-origin
+		cross-origin-resource-policy same-origin
+		date Mon, 08 Sep 2025 23:36:39 GMT
+		etag W/"593-1992b9a1008"
+		last-modified Mon, 08 Sep 2025 23:12:21 GMT
+		origin-agent-cluster ?1
+		referrer-policy no-referrer
+		server railway-edge
+		strict-transport-security max-age=15552000; includeSubDomains
+		vary Origin, Accept-Encoding
+		x-content-type-options nosniff
+		x-dns-prefetch-control off
+		x-download-options noopen
+		x-frame-options SAMEORIGIN
+		x-permitted-cross-domain-policies none
+		x-railway-edge railway/us-east4-eqdc4a
+		x-railway-request-id DrTW64PzQQ-o1jHOwoOzXw
+		x-xss-protection 0
+	
+	Violating node:
+		Request URL https://yoohoo.guru/favicon.ico
+		Request Method GET
+		Status Code 200 OK
+		Remote Address 66.33.22.249:443
+		Referrer Policy no-referrer
+		accept-ranges bytes
+		access-control-allow-credentials true
+		cache-control public, max-age=0
+		content-encoding br
+		content-security-policy default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+		content-type text/html; charset=UTF-8
+		cross-origin-opener-policy same-origin
+		cross-origin-resource-policy same-origin
+		date Mon, 08 Sep 2025 23:36:39 GMT
+		etag W/"593-1992b9a1008"
+		last-modified Mon, 08 Sep 2025 23:12:21 GMT
+		origin-agent-cluster ?1
+		referrer-policy no-referrer
+		server railway-edge
+		strict-transport-security max-age=15552000; includeSubDomains
+		vary Origin, Accept-Encoding
+		x-content-type-options nosniff
+		x-dns-prefetch-control off
+		x-download-options noopen
+		x-frame-options SAMEORIGIN
+		x-permitted-cross-domain-policies none
+		x-railway-edge railway/us-east4-eqdc4a
+		x-railway-request-id DrTW64PzQQ-o1jHOwoOzXw
+		x-xss-protection 0
+	
+	Violating node:
+		Request URL
+		https://yoohoo.guru/favicon.ico
+		Request Method GET
+		Status Code 200 OK
+		Remote Address 66.33.22.249:443
+		Referrer Policy no-referrer
+		accept-ranges bytes
+		access-control-allow-credentials true
+		cache-control public, max-age=0
+		content-encoding br
+		content-security-policy default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+		content-type text/html; charset=UTF-8
+		cross-origin-opener-policy same-origin
+		cross-origin-resource-policy same-origin
+		date Mon, 08 Sep 2025 23:36:39 GMT
+		etag W/"593-1992b9a1008"
+		last-modified Mon, 08 Sep 2025 23:12:21 GMT
+		origin-agent-cluster ?1
+		referrer-policy no-referrer
+		server railway-edge
+		strict-transport-security max-age=15552000; includeSubDomains
+		vary Origin, Accept-Encoding
+		x-content-type-options nosniff
+		x-dns-prefetch-control off
+		x-download-options noopen
+		x-frame-options SAMEORIGIN
+		x-permitted-cross-domain-policies none
+		x-railway-edge railway/us-east4-eqdc4a
+		x-railway-request-id DrTW64PzQQ-o1jHOwoOzXw 
+		x-xss-protection 0
+			
+
+Console Errors
+		
+	Refused to load the script 'https://js.stripe.com/v3/pricing-table.js' because it violates the following Content Security Policy directive: "script-src 'self'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+		✅ Firebase configuration validated for production main.397f37f63efb6ffaafdb.js:2 
+		✅ Firebase initialized successfully main.397f37f63efb6ffaafdb.js:2 
+		🔥 Project: ceremonial-tea-470904-f3 main.397f37f63efb6ffaafdb.js:2
+		🌐 Auth Domain: ceremonial-tea-470904-f3.firebaseapp.com main.397f37f63efb6ffaafdb.js:2
+		SW registered:  ServiceWorkerRegistration main.397f37f63efb6ffaafdb.js:2 
+
+
+	Refused to load the script 'https://apis.google.com/js/api.js?onload=__iframefcb638970' because it violates the following Content Security Policy directive: "script-src 'self'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. vendors.577ed7c16a6d31c6ad51.js:172 (anonymous) @ vendors.577ed7c16a6d31c6ad51.js:172
+ 
+
+	Google Auth Error: FirebaseError: Firebase: Error (auth/internal-error).  hook.js:608 
+		at m (vendors.577ed7c16a6d31c6ad51.js:172:4615)
+		at p (vendors.577ed7c16a6d31c6ad51.js:172:3908)
+		at r.onerror (vendors.577ed7c16a6d31c6ad51.js:172:94994)
+		overrideMethod @ hook.js:608
+
+	Node cannot be found in the current page.
+	
+	

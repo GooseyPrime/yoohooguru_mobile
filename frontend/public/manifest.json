@@ -1,0 +1,9 @@
+{
+  "short_name": "yoohoo.guru",
+  "name": "yoohoo.guru",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#007BFF",
+  "background_color": "#ffffff"
+}
