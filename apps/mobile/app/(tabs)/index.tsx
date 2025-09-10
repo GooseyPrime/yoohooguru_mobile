@@ -24,7 +24,7 @@ export default function HomeScreen() {
   // Fetch skills feed
   const { data: skillsData, isLoading } = useQuery({
     queryKey: ['skills', 'browse'],
-    queryFn: () => skillsApi.browseSkills({ popular: true, limit: 20 }),
+    queryFn: () => skillsApi.browseSkills({ limit: 20 }),
   });
 
   const skills = skillsData?.data?.skills || [];
