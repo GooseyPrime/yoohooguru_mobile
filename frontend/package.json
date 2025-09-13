@@ -19,7 +19,7 @@
   "dependencies": {
     "@stripe/react-stripe-js": "^2.4.0",
     "@stripe/stripe-js": "^2.4.0",
-    "axios": "^1.6.2",
+    "axios": "^1.12.0",
     "date-fns": "^3.0.6",
     "dotenv": "^16.6.1",
     "firebase": "^10.7.1",
